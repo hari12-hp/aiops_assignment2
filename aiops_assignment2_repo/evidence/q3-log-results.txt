@@ -1,0 +1,10 @@
+shard,pod,node,invalid_rows
+0,shard-validator-0-b8jhg,aiops-m3-m02,1
+1,shard-validator-1-zjpcw,aiops-m3-m02,2
+2,shard-validator-2-b5lzj,aiops-m3,3
+3,shard-validator-3-lmhds,aiops-m3,4
+4,shard-validator-4-rqnxb,aiops-m3-m02,5
+5,shard-validator-5-nmbnh,aiops-m3,6
+6,shard-validator-6-rxffr,aiops-m3-m02,7
+7,shard-validator-7-n6vxx,aiops-m3,8
+ALL_8_SHARDS_REPORTED=1

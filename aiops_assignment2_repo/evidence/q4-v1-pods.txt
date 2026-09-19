@@ -1,0 +1,3 @@
+NAME                        READY   STATUS    RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+spam-api-76d98785bf-9fh2p   1/1     Running   0          9s    10.244.0.19   aiops-m3       <none>           <none>
+spam-api-76d98785bf-gmj2z   1/1     Running   0          9s    10.244.1.20   aiops-m3-m02   <none>           <none>

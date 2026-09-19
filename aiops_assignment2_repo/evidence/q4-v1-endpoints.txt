@@ -1,0 +1,4 @@
+healthz:
+{"status":"ok","version":"v1"}
+predict:
+{"label":"spam"}

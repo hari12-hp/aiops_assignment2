@@ -1,0 +1,3 @@
+NAME           STATUS   ROLES           AGE   VERSION
+aiops-m3       Ready    control-plane   29m   v1.35.1
+aiops-m3-m02   Ready    <none>          29m   v1.35.1

@@ -1,0 +1,7 @@
+trials=20
+miss_mean_ms=3.950
+hit_mean_ms=1.982
+miss_median_ms=3.081
+hit_median_ms=1.781
+speedup_x=1.73
+CACHE_SPEEDUP_CONFIRMED=1

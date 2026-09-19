@@ -1,0 +1,96 @@
+api-1  | INFO:     Started server process [1]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+api-1  | INFO:     172.18.0.1:46820 - "GET /healthz HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:46826 - "GET /healthz HTTP/1.1" 200 OK
+api-1  | cache MISS
+api-1  | INFO:     172.18.0.1:46836 - "POST /predict HTTP/1.1" 200 OK
+api-1  | cache MISS
+api-1  | INFO:     172.18.0.1:46844 - "POST /predict HTTP/1.1" 200 OK
+api-1  | cache HIT
+api-1  | INFO:     172.18.0.1:46858 - "POST /predict HTTP/1.1" 200 OK
+api-1  | cache MISS
+api-1  | INFO:     172.18.0.1:46862 - "POST /predict HTTP/1.1" 200 OK
+api-1  | cache HIT
+api-1    | INFO:     172.18.0.1:46878 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache MISS
+api-1    | INFO:     172.18.0.1:46894 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache HIT
+api-1    | INFO:     172.18.0.1:46902 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache MISS
+api-1    | INFO:     172.18.0.1:46916 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache HIT
+api-1    | INFO:     172.18.0.1:46920 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache MISS
+api-1    | INFO:     172.18.0.1:46922 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache HIT
+api-1    | INFO:     172.18.0.1:46924 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache MISS
+api-1    | INFO:     172.18.0.1:46926 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache HIT
+api-1    | INFO:     172.18.0.1:46936 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache MISS
+cache-1  | 1:C 19 Sep 2026 14:14:43.662 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+cache-1  | 1:C 19 Sep 2026 14:14:43.662 * Redis version=7.4.11, bits=64, commit=00000000, modified=0, pid=1, just started
+api-1    | INFO:     172.18.0.1:46950 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache HIT
+cache-1  | 1:C 19 Sep 2026 14:14:43.662 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
+api-1    | INFO:     172.18.0.1:46952 - "POST /predict HTTP/1.1" 200 OK
+cache-1  | 1:M 19 Sep 2026 14:14:43.663 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+cache-1  | 1:M 19 Sep 2026 14:14:43.663 * monotonic clock: POSIX clock_gettime
+cache-1  | 1:M 19 Sep 2026 14:14:43.665 * Running mode=standalone, port=6379.
+cache-1  | 1:M 19 Sep 2026 14:14:43.666 * Server initialized
+cache-1  | 1:M 19 Sep 2026 14:14:43.666 * Ready to accept connections tcp
+api-1    | cache MISS
+api-1    | INFO:     172.18.0.1:46964 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache HIT
+api-1    | INFO:     172.18.0.1:46966 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache MISS
+api-1    | INFO:     172.18.0.1:46972 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache HIT
+api-1    | INFO:     172.18.0.1:46974 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache MISS
+api-1    | INFO:     172.18.0.1:46982 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache HIT
+api-1    | INFO:     172.18.0.1:46992 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache MISS
+api-1    | INFO:     172.18.0.1:46998 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache HIT
+api-1    | INFO:     172.18.0.1:47014 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache MISS
+api-1    | INFO:     172.18.0.1:47030 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache HIT
+api-1    | INFO:     172.18.0.1:47046 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache MISS
+api-1    | INFO:     172.18.0.1:47058 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache HIT
+api-1    | INFO:     172.18.0.1:47070 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache MISS
+api-1    | INFO:     172.18.0.1:47082 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache HIT
+api-1    | INFO:     172.18.0.1:47094 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache MISS
+api-1    | INFO:     172.18.0.1:47106 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache HIT
+api-1    | INFO:     172.18.0.1:47116 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache MISS
+api-1    | INFO:     172.18.0.1:47124 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache HIT
+api-1    | INFO:     172.18.0.1:47132 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache MISS
+api-1    | INFO:     172.18.0.1:47140 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache HIT
+api-1    | INFO:     172.18.0.1:47144 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache MISS
+api-1    | INFO:     172.18.0.1:47160 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache HIT
+api-1    | INFO:     172.18.0.1:47172 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache MISS
+api-1    | INFO:     172.18.0.1:47188 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache HIT
+api-1    | INFO:     172.18.0.1:47204 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache MISS
+api-1    | INFO:     172.18.0.1:47218 - "POST /predict HTTP/1.1" 200 OK
+api-1    | cache HIT
+api-1    | INFO:     172.18.0.1:47226 - "POST /predict HTTP/1.1" 200 OK

@@ -1,0 +1,3 @@
+requests=120
+failures=0
+CONTINUOUS_HEALTH_CHECK=PASS

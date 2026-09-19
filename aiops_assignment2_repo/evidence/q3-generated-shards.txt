@@ -1,0 +1,8 @@
+shard_0.csv: expected_invalid_rows=1
+shard_1.csv: expected_invalid_rows=2
+shard_2.csv: expected_invalid_rows=3
+shard_3.csv: expected_invalid_rows=4
+shard_4.csv: expected_invalid_rows=5
+shard_5.csv: expected_invalid_rows=6
+shard_6.csv: expected_invalid_rows=7
+shard_7.csv: expected_invalid_rows=8

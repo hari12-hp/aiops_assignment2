@@ -1,0 +1,7 @@
+observed_running_pods=4
+
+NAME                      READY   STATUS    RESTARTS   AGE   IP            NODE           NOMINATED NODE   READINESS GATES
+shard-validator-0-b8jhg   1/1     Running   0          2s    10.244.1.16   aiops-m3-m02   <none>           <none>
+shard-validator-1-zjpcw   1/1     Running   0          2s    10.244.1.17   aiops-m3-m02   <none>           <none>
+shard-validator-2-b5lzj   1/1     Running   0          2s    10.244.0.15   aiops-m3       <none>           <none>
+shard-validator-3-lmhds   1/1     Running   0          2s    10.244.0.16   aiops-m3       <none>           <none>
